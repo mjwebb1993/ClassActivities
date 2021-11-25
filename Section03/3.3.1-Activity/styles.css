@@ -1,0 +1,49 @@
+body {
+  background-color:seagreen
+}
+header {
+  background: burlywood;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: rgb(240, 6, 6);
+  text-align: center;
+}
+#homeIntro {
+  border: 1px black solid;
+  margin: 10px 100px;
+  border-radius: 10px;
+  padding: 1.5rem;
+  background-color: blueviolet;
+}
+.paraOne {
+  text-align: center;
+  list-style-position: inside;
+  background-color: darksalmon;
+}
+
+header > a {
+  text-decoration: none;
+  background-color: red;
+  font-size: 1.5em;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+  nav,
+  nav > h1 {
+    /* display: inline; */
+    color:blue;
+    background-color: aquamarine;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    /* margin: auto; */
+    /* padding: 10px 40px; */
+  }
