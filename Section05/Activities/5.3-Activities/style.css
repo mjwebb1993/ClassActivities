@@ -19,6 +19,34 @@ header > a {
   padding: 1.5rem;
   border-radius: 10px;
 }
+@media (min-width: 550px) {
+  nav > .fa-bars {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .hidden--mobile {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* @media (max-width: 549px){
   .hidden--mobile {
