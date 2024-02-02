@@ -22,4 +22,5 @@ total = 0;
 for (let num = 1; num <= 100; num++) {
   total = num + total;
 }
+
 console.log(total);
