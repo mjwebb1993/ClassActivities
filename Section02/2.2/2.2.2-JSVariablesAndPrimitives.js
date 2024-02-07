@@ -40,3 +40,4 @@ console.log(`My name is ${name} and my favoriteSong is ${favoriteSong}`);
 
 let str = "";
 let num = 4;
+
