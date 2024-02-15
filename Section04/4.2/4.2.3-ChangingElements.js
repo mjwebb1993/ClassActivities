@@ -11,8 +11,8 @@ console.log(document.querySelector("#class-schedule-list").textContent);
 // David or Matt please do :)
 
 // select the img element and add a src attribute
-document.querySelector("img").src =
-  "https://i2.pickpik.com/photos/774/556/1024/odin-male-australian-shepherd-dog-thumb.jpg";
+// document.querySelector("img").src =
+//   "https://i2.pickpik.com/photos/774/556/1024/odin-male-australian-shepherd-dog-thumb.jpg";
 
 // change the font color of the h1 element
 document.querySelector("h1").style.color = "blue";

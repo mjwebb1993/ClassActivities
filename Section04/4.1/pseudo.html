@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo Classes</title>
+  <style>
+    li:first-child {
+      color: blue;
+    }
+
+    li:last-child {
+      color: green;
+    }
+
+    /* :nth-child(n) */
+    li:nth-child(2) {
+      color: pink;
+    }
+
+    /* :nth-child(an) */
+    ol li:nth-child(2n) {
+      background-color: gray;
+    }
+
+    #last {
+      color: brown;
+    }
+
+    ol li:nth-child(2n):hover {
+      background-color: rgb(126, 157, 158);
+    }
+
+    li:hover {
+      background-color: cadetblue;
+    }
+
+    /* Selects any <a> that is being activated */
+    a:active {
+      color: red;
+    }
+
+    /* Selects any <a> that has been visited */
+    a:visited {
+      color: green;
+    }
+    /* Add a heart before the a links */
+    a::before {
+      content: "→ ";
+    }
+
+    /* Add an arrow after links */
+    a::after {
+      content: "→";
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li>First</li>
+    <li>Second</li>
+    <li>Third</li>
+    <li>Fourth</li>
+    <li>Fifth</li>
+    <li>Sixth</li>
+  </ul>
+  <ol>
+    <li>First</li>
+    <li>Second</li>
+    <li>Third</li>
+    <li>Fourth</li>
+    <li>Fifth</li>
+    <li id="last">Sixth</li>
+  </ol>
+  <a href="https://www.google.com">Take me to Google</a>
+  <a href="https://www.duckduckgo.com">DuckDuckGo</a>
+</body>
+</html>
