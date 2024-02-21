@@ -20,3 +20,12 @@ footer {
   padding: .5em;
   background-color: #ADA8B6;
 }
+
+.button {
+  font-size: 0.5em;
+  background-color: blue;
+  border-radius: 1em;
+  padding: 0.5em;
+  cursor: pointer;
+  border: 1px solid black;
+}
