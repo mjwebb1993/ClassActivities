@@ -16,12 +16,12 @@
         <h1>SavvyCoders JavaScript FullStack Cohort</h1>
     </header>
 
-    <content>
-        <!--
+    <!-- <content> -->
+    <!--
       Comment-out the line above, and uncomment the line below
       to turn on the FLEX functionality
       -->
-        <!-- <content class="responsive flex"> -->
+    <content class="responsive flex">
         <div id="block1">
             FIRST: Quisque lacinia lorem nec mauris sollicitudin
         </div>
@@ -44,20 +44,23 @@
     </content>
 
     <!-- Basic Form. Comment it out when using the Better Form -->
-    <form>
+    <!-- <form>
         <input type="text" required />
-        <input type="password" />
+        
         <input type="email" />
         <input type="submit" />
-    </form>
+    </form> -->
 
     <!-- A "Better" form. Uncomment it for Activity 2 -->
-    <!-- <form action="" method="POST">
+    <form action="" method="POST">
         <label for="name">Name:</label>
         <input type="text" name="name" id="name" placeholder="Full Name" required />
 
         <label for="email">Email:</label>
         <input type="email" name="email" id="email" placeholder="you@somewhere.com" />
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" />
 
         <label for="fone">Phone:</label>
         <input type="tel" name="fone" id="fone" placeholder="555-555-5555" />
@@ -107,15 +110,16 @@
             </select>
         </div>
 
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Not Submit" />
 
-    </form> -->
+    </form>
+    <div id="userInput"></div>
     <footer>
         &copy; 2022 <a href="https://savvycoders.com/">Savvy Coders</a>
     </footer>
 
     <!-- Activity 4 - Form Handling: Uncomment the JS link -->
-    <!-- <script src="./index.js"></script> -->
+    <script src="./index.js"></script>
 </body>
 
 </html>
