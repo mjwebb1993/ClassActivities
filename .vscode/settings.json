@@ -15,11 +15,12 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "stylelint.enable": true,
-  "workbench.colorTheme": "Material Theme",
+  "workbench.colorTheme": "Default Dark+",
   "workbench.enableExperiments": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.view.alwaysShowHeaderActions": true,
   "editor.rulers": [
-      100, 120
+    100,
+    120
   ]
 }
