@@ -1,7 +1,7 @@
 // TODO: using the function expressions below, refactor them into function declarations
 function greet() {
   console.log("Hello!");
-};
+}
 
 greet();
 
@@ -10,8 +10,8 @@ greet();
 // };
 
 function threeModTwo() {
-  console.log(3 % 2)
-};
+  console.log(3 % 2);
+}
 
 threeModTwo();
 
@@ -36,5 +36,5 @@ checkDrivingAge();
 
 //Create TwoPlusTwo Function
 function TwoPlusTwo() {
-  console.log(2+2)
-};
+  console.log(2 + 2);
+}
