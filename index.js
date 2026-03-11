@@ -1,13 +1,16 @@
-let greeting = "Hello, my name is Michael. Welcome to Michael's lecture.";
+let str = "string";
 
-const dateOfBirth = "7/22/1993";
-console.log("Line 2: " + greeting);
-let num = 5.5;
-let str = "5.5";
-let boolean = false;
+if (typeof str == "string") {
+  console.log("Inside scope of if conditional");
+}
 
-greeting = false;
-console.log("Line 8: " + greeting);
-
-console.log(typeof "I am a string inside of a console.log");
-console.log(typeof num);
+function myFunction() {
+  console.log("Hello, world");
+  let num = 5;
+  if (num >= 5) {
+    let numScoped = true;
+    console.log("num is greater than 5");
+    console.log("the value of num is", num);
+    console.log(str);
+  }
+}
