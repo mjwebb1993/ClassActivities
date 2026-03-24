@@ -1,0 +1,81 @@
+/*
+	Several CSS sections will be added from activity 5
+*/
+
+header > h1 {
+  color: darkblue;
+}
+
+body > form {
+	margin: 2em;
+}
+
+/*  This styling sets up the flex container */
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* this adds a border around the flex items */
+.flex > * {
+  border: 1px black solid;
+}
+
+/* Activity 5.2.1: Media queries
+  -Add CSS that removes the border around the flex items */
+  @media print {
+    .flex > * {
+      border: none;
+    }
+  }
+
+
+/* Activity 5.2.2: Media queries
+  -Add CSS for when screen size is less than 700px */
+  /* @media (max-width: 699px){
+    * {
+      flex-direction: column;
+    }
+  } */
+
+
+/* Activity 5.2.3: Media queries
+  -Add CSS that checks for device hover capabilities */
+  /* @media (hover: hover){
+    * :hover {
+      color:red;
+    }
+  } */
+
+/* GRID CSS ACTIVITY */
+.wrapper {
+  display: grid;
+  grid-template-columns: 200px 50px 100px;
+  grid-template-rows: 50px 50px 50px;
+}
+
+.item1{
+  background-color: rgba(207, 37, 37, 0.831);
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.item2{
+  background-color: gold;
+}
+.item3{
+  background-color: aqua;
+  grid-row-start: 2;
+  grid-row-end: 4;
+
+}
+.item4{
+  background-color: blueviolet;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.item5{
+  background-color: aquamarine;
+}
+.item6{
+  background-color: chocolate;
+}
