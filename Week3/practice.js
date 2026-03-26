@@ -95,3 +95,9 @@ function makePizza(name, cost, toppings) {
 }
 
 console.log(makePizza("supreme", 5.99, ["sausage", "pepper", "onion"]));
+
+function makePizza(name, cost, ...toppings) {
+  console.log(toppings[1])
+}
+
+makePizza("supreme", 5.99, "sausage", "pepper", "mushroom")
